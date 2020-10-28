@@ -5,8 +5,8 @@
 
 .menu_bar {
   width: 319px;
-  height: 100vh;
-  background-color: #222222;
+  height: 1080px;
+  background-color: #272727;
   padding: 30px;
   position: fixed;
 }
@@ -44,4 +44,30 @@
   background-color: #ff2288;
   border-radius: 12px;
   transition: 0.5s;
+}
+
+.search {
+  display: flex;
+  width: 446px;
+  height: 56px;
+  justify-content: space-evenly;
+  transform: translateY(30px);
+  margin-left: 344px;
+  border-radius: 12px;
+  background-color: #f8f8f8;
+  border-style: none;
+}
+.search > input {
+  width: 355px;
+  outline: none;
+  background-color: #f8f8f8;
+  border-style: none;
+  font-size: 14px;
+}
+#line {
+  margin-left: 344px;
+  transform: translateY(116px);
+  width: 980px;
+  height: 1px;
+  background-color: #f8f8f8;
 }
